@@ -91,7 +91,6 @@ class ResumeBuilderApp:
                                     spaceBefore=0,
                                     spaceAfter=2))
 
-
     # ----- CRIAÇÃO DE WIDGETS DA UI -----
     def _create_widgets(self):
         """Cria e organiza os widgets na interface gráfica."""
@@ -309,7 +308,6 @@ class ResumeBuilderApp:
 
         # Habilidades
         self.data["habilidades"] = self.skills_text.get("1.0", tk.END).strip()
-
 
     def _generate_pdf(self):
         """Gera o currículo em formato PDF."""
